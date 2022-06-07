@@ -67,3 +67,7 @@ body {
     display: flex;
     flex-wrap: wrap;
 }
+
+.agreement-container{
+    display: flex;
+}
