@@ -1,0 +1,14 @@
+ body{
+     margin: 0;
+ }
+
+ .header{
+     display: flex;
+     background-color: rgb(50, 167, 145);
+     margin: 0;
+ }
+
+ .trybewarts-header-logo{
+     width: 10%;
+     padding: 10px;
+ }
