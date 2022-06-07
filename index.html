@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Trybewarts</title>
   <link rel="stylesheet" href="style.css">
+  <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 
 <body>
@@ -21,24 +23,24 @@
   </header>
 
   <main class="flex-container-main">
-
     <form action="#" method="get" id="evaluation-form" class="flex-container-form">
+      <h1>Formulário de Avaliação</h1>
 
-      <section class="alignment">
-        <input type="text" name="nome" id="input-name" placeholder="Nome">
-        <input type="text" name="sobrenome" id="input-lastname" placeholder="Sobrenome">
-      </section>
-
-      <section class="alignment">
-
-        <input type="email" name="email" id="input-email" placeholder="Email">
-
-        <select name="casa" id="house">
-          <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-          <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-          <option value="Corvinode" id="corvinode-house">Corvinode</option>
-          <option value="Pytherina" id="pytherina-house">Pytherina</option>
-        </select>
+      <section>
+        <div class="alignment">
+          <input type="text" name="nome" id="input-name" placeholder="Nome">
+          <input type="text" name="sobrenome" id="input-lastname" placeholder="Sobrenome">
+        </div>
+    
+        <div class="alignment">
+            <input type="email" name="email" id="input-email" placeholder="Email">
+            <select name="casa" id="house">
+              <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+              <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+              <option value="Corvinode" id="corvinode-house">Corvinode</option>
+              <option value="Pytherina" id="pytherina-house">Pytherina</option>
+            </select>
+        </div>
 
       </section>
 
@@ -64,10 +66,10 @@
           </div>
         </section>
 
-          <section class="agreement-container">
-            <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
-            <input type="checkbox" name="agreement" id="agreement"/>
-          </section>
+        <section class="agreement-container">
+          <label for="agreement" id="label-infos">Você concorda com o uso das informações acima?</label>
+          <input type="checkbox" name="agreement" id="agreement"/>
+        </section>
         
 
       <section class="alignment">
@@ -85,9 +87,9 @@
       </section>
 
       <label for="comentario" class="textarea"> Deixe seu comentário:</label>
-      <textarea name="" id="comentario" cols="30" rows="10" maxlength="500"></textarea>
-      
-      <button type="submit" id="submit-btn">Enviar</button>
+      <textarea name="" id="comentario" rows="10" maxlength="500"></textarea>
+
+      <button class="form-button" type="submit" id="submit-btn">Enviar</button>
 
     </form>
 
