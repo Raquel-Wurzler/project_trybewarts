@@ -26,3 +26,40 @@
  #trybewarts-forms-logo {
    height: 500px;
  }
+
+ .header {
+   display: flex;
+   background-color: rgb(50, 167, 145);
+   margin: 0;
+   justify-content: space-between;
+   height: 100px;
+   align-items: center;
+ }
+
+ .trybewarts-header-logo {
+   width: 10%;
+   padding: 10px;
+ }
+
+ #trybewarts-header-title {
+   color: white;
+ }
+
+ .trybewarts-login {
+   display: flex;
+   border: 50px;
+   padding: 30px;
+   justify-content: space-between;
+ }
+
+ .trybewarts-login input {
+   border-radius: 10px;
+   border: 1px solid black;
+   padding: 10px;
+ }
+
+ .trybewarts-login button {
+   border-radius: 10px;
+   border: 1px solid black;
+   padding: 10px 20px;
+ }
