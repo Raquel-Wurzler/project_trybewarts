@@ -6,6 +6,9 @@
    display: flex;
    background-color: rgb(50, 167, 145);
    margin: 0;
+   justify-content: space-between;
+   height: 100px;
+   align-items: center;
  }
 
  .trybewarts-header-logo {
@@ -25,20 +28,6 @@
 
  #trybewarts-forms-logo {
    height: 500px;
- }
-
- .header {
-   display: flex;
-   background-color: rgb(50, 167, 145);
-   margin: 0;
-   justify-content: space-between;
-   height: 100px;
-   align-items: center;
- }
-
- .trybewarts-header-logo {
-   width: 10%;
-   padding: 10px;
  }
 
  #trybewarts-header-title {
@@ -62,4 +51,9 @@
    border-radius: 10px;
    border: 1px solid black;
    padding: 10px 20px;
+ }
+
+ .alignment {
+   display: flex;
+   flex-direction: row;
  }
