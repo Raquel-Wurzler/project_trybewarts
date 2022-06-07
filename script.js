@@ -1,13 +1,13 @@
-const email = document.getElementById('email');
-const password = document.getElementById('password');
 const button = document.getElementById('button');
 
-// eslint-disable-next-line space-before-blocks
-function login(){
+function login() {
+  const email = document.getElementById('email');
+  const password = document.getElementById('senha');
   if (email.value === 'tryber@teste.com' && password.value === '123456') {
-    window.alert('Olá, tryber!');
+    alert('Olá, tryber!');
   } else {
-    window.alert('Email ou senha inválidos');
+    alert('Email ou senha inválidos.');
   }
 }
+
 button.addEventListener('click', login);

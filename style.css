@@ -14,11 +14,12 @@
  .trybewarts-header-logo {
      width: 10%;
      padding: 10px;
- }
-
+ } 
+ 
  #trybewarts-header-title {
      color: white;
  }
+
  .trybewarts-login{
      display: flex;
      border: 50px;
