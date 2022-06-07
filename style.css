@@ -52,3 +52,18 @@ body {
 #trybewarts-forms-logo {
   height: 500px;
 }
+
+.radios {
+  display: flex;
+  flex-direction: column;
+}
+
+#div-checkbox-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.checked{
+    display: flex;
+    flex-wrap: wrap;
+}
