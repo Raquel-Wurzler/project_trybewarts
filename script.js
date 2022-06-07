@@ -1,13 +1,12 @@
-const button = document.getElementById('button');
+const button = document.getElementById('button-login');
+const emailLogin = document.getElementById('email-login');
+const passwordLogin = document.getElementById('senha-login');
 
 function login() {
-  const email = document.getElementById('email');
-  const password = document.getElementById('senha');
-  if (email.value === 'tryber@teste.com' && password.value === '123456') {
-    alert('Olá, tryber!');
+  if (emailLogin.value === 'tryber@teste.com' && passwordLogin.value === '123456') {
+    alert('Olá, Tryber!');
   } else {
     alert('Email ou senha inválidos.');
   }
 }
-
 button.addEventListener('click', login);
