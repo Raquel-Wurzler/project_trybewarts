@@ -12,3 +12,12 @@
      width: 10%;
      padding: 10px;
  }
+
+ .flex-container-form {
+    display: flex;
+    width: 675px;
+ }
+
+ .flex-container-main {
+     display: flex;
+ }
