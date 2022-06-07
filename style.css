@@ -2,6 +2,7 @@ body {
   margin: 0;
 }
 
+<<<<<<< HEAD
 button {
   border-radius: 10px;
   border: 1px solid blueviolet;
@@ -11,6 +12,16 @@ button {
   justify-content: center;
 }
 
+=======
+ .header {
+   display: flex;
+   background-color: rgb(50, 167, 145);
+   margin: 0;
+   justify-content: space-between;
+   height: 100px;
+   align-items: center;
+ }
+>>>>>>> 742cd3ae5189bea0fad3230bc75fc2587ecdb39f
 .header {
   display: flex;
   background-color: rgb(50, 167, 145);
@@ -44,6 +55,9 @@ button {
   margin: 5px;
 }
 
+ #trybewarts-header-title {
+   color: white;
+ }
 .trybewarts-login button {
   border-radius: 10px;
   border: 1px solid blueviolet;
@@ -73,6 +87,16 @@ button {
   flex-direction: column;
 }
 
+ .trybewarts-login button {
+   border-radius: 10px;
+   border: 1px solid black;
+   padding: 10px 20px;
+ }
+
+ .alignment {
+   display: flex;
+   flex-direction: row;
+ }
 #div-checkbox-content{
     display: flex;
     flex-direction: column;
@@ -86,6 +110,7 @@ button {
 .agreement-container{
     display: flex;
 }
+<<<<<<< HEAD
 
 footer {
     background-color: rgb(42, 42, 42);
@@ -94,3 +119,5 @@ footer {
     color: white;
     padding: 5px;
 }
+=======
+>>>>>>> 742cd3ae5189bea0fad3230bc75fc2587ecdb39f
