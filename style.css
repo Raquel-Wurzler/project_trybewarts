@@ -83,7 +83,7 @@ button {
   flex-direction: row;
 }
 
-.alignment input{
+.alignment input {
   border-radius: 10px;
   border: 1px solid black;
   padding: 10px;
@@ -104,25 +104,23 @@ button {
   display: flex;
 }
 
-textarea{
-    resize: none;
-    border-radius: 10px;
-    border: 1px solid black;
-    box-sizing: border-box;
-    width: 550px;
+textarea {
+  resize: none;
+  border-radius: 10px;
+  border: 1px solid black;
+  box-sizing: border-box;
+  width: 550px;
 }
 
-.form-button{
-    
-    border-radius: 20px;
-    border: 1px solid blueviolet;
-    padding: 10px 20px;
-    background-color: blueviolet;
-    color: white;
-    justify-content: center;
-    width: 550px;
-    margin-top: 20px;
-      
+.form-button {
+  border-radius: 20px;
+  border: 1px solid blueviolet;
+  padding: 10px 20px;
+  background-color: blueviolet;
+  color: white;
+  justify-content: center;
+  width: 550px;
+  margin-top: 20px;
 }
 
 footer {
