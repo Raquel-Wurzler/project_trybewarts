@@ -138,3 +138,7 @@ footer {
   color: white;
   padding: 5px;
 }
+
+.contador {
+  display: flex;
+}
