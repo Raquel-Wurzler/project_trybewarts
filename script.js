@@ -15,13 +15,25 @@ button.addEventListener('click', login);
 
 // Requisito 18
 
-const agreement = document.querySelector('#agreement');
-const btn = document.querySelector('#submit-btn');
-function radioChecked() {
-  if (agreement.checked) {
+// const agreement = document.querySelector('#agreement');
+// const btn = document.querySelector('#submit-btn');
+// btn.disabled = true;
+// function radioChecked() {
+//   if (agreement.checked) {
+//     btn.disabled = true;
+//   } else {
+//     btn.disabled = false;
+//   }
+// }
+// agreement.addEventListener('click', radioChecked());
+
+const agreement = document.getElementById('agreement');
+const btn = document.getElementById('submit-btn');
+btn.disabled = true;
+agreement.addEventListener('change', function () {
+  if (agreement.value === '') {
     btn.disabled = true;
   } else {
     btn.disabled = false;
   }
-}
-agreement.addEventListener('click', radioChecked());
+});
