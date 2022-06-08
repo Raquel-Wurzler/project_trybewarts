@@ -123,6 +123,14 @@ textarea {
   margin-top: 20px;
 }
 
+#house {
+  width: 200px;
+  height: 45px;
+  border-radius: 10px;
+  border: 1px solid black;
+  justify-content: center;
+}
+
 footer {
   background-color: rgb(42, 42, 42);
   display: flex;
