@@ -27,3 +27,12 @@ function ativaDesativaBotao() {
 }
 
 agreement.addEventListener('change', ativaDesativaBotao);
+
+// Requisito 20
+
+const textArea = document.querySelector('textarea');
+textArea.addEventListener('input', () => {
+  const quantidadeDigitada = textArea.value.length;
+  const counter = document.getElementById('counter');
+  counter.innerText = (textArea.maxLength - quantidadeDigitada);
+});
