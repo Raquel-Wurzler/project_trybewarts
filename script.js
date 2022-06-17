@@ -40,16 +40,40 @@ textArea.addEventListener('input', () => {
 // Requisito 21
 
 function printInfos () {
-  const div = document.createElement('div');
-  div.className = 'new-infos';
-  const mostraInfos = document.querySelector('.mostra-infos');
-  mostraInfos.appendChild(div);
+    const nome = document.getElementById('input-name').value;
+    const um = document.getElementById('1');
+    um.innerHTML = nome;
+    const sobrenome = document.getElementById('input-lastname').value;
+    const dois = document.getElementById('2');
+    dois.innerHTML = sobrenome;
+    const email = document.getElementById('input-email').value;
+    const tres = document.getElementById('3');
+    tres.innerHTML = email;
+    const casa = document.getElementById('house').value;
+    const quatro = document.getElementById('4');
+    quatro.innerHTML = casa;
+    const familia = document.getElementsByClassName('radios').value;
+    const cinco = document.getElementById('5');
+    cinco.innerHTML = familia;
+    const conteudo = document.getElementsByClassName('checked').value;
+    const seis = document.getElementById('6');
+    seis.innerHTML = conteudo;
+    const avaliacao = document.getElementById('label-rate').value;
+    const sete = document.getElementById('7');
+    sete.innerHTML = avaliacao;
+    const comentario = document.getElementById('textarea').value;
+    const oito = document.getElementById('8');
+    oito.innerHTML = comentario;
+    const concordo = document.getElementById('agreement').value;
+    const nove = document.getElementById('9');
+    nove.innerHTML = concordo;
+
+  
 }
 
 btn.addEventListener('click', () => {
   event.preventDefault();
   const infos = document.querySelector('main');
   infos.style.display = 'none';
-  const nome = document.getElementById('input-name').value;
-  printInfos().innerText = nome;
+  printInfos();
 });
