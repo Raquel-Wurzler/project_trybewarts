@@ -36,3 +36,20 @@ textArea.addEventListener('input', () => {
   const counter = document.getElementById('counter');
   counter.innerText = (textArea.maxLength - quantidadeDigitada);
 });
+
+// Requisito 21
+
+function printInfos () {
+  const div = document.createElement('div');
+  div.className = 'new-infos';
+  const mostraInfos = document.querySelector('.mostra-infos');
+  mostraInfos.appendChild(div);
+}
+
+btn.addEventListener('click', () => {
+  event.preventDefault();
+  const infos = document.querySelector('main');
+  infos.style.display = 'none';
+  const nome = document.getElementById('input-name').value;
+  printInfos().innerText = nome;
+});
