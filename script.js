@@ -39,24 +39,24 @@ textArea.addEventListener('input', () => {
 
 // Requisito 21
 
-function printInfos () {
-    const nome = document.getElementById('input-name').value;
-    const sobrenome = document.getElementById('input-lastname').value;
-    const email = document.getElementById('input-email').value;
-    const casa = document.getElementById('house').value;
-    const familia = document.querySelector('input[name=\'family\']:checked').value;
-    const conteudo = document.querySelectorAll('.subject:checked');
-    console.log(conteudo);
-    const avaliacao = document.querySelector('input[name=\'rate\']:checked').value;
-    const comentario = document.getElementById('textarea').value;
-    const dados = document.getElementById('dados');
-    dados.innerHTML = `Nome: ${nome} ${sobrenome};
+function printInfos() {
+  const nome = document.getElementById('input-name').value;
+  const sobrenome = document.getElementById('input-lastname').value;
+  const email = document.getElementById('input-email').value;
+  const casa = document.getElementById('house').value;
+  const familia = document.querySelector('input[name=\'family\']:checked').value;
+  const conteudo = document.querySelectorAll('.subject:checked');
+  console.log(conteudo);
+  const avaliacao = document.querySelector('input[name=\'rate\']:checked').value;
+  const comentario = document.getElementById('textarea').value;
+  const dados = document.getElementById('dados');
+  dados.innerHTML = `Nome: ${nome} ${sobrenome};
     Email: ${email};
     Casa: ${casa};
     Família: ${familia};
     Matérias: ${[...conteudo].map((conteudos) => conteudos.value).join(', ')};
     Avaliação: ${avaliacao};
-    Observações: ${comentario};`
+    Observações: ${comentario};`;
 }
 
 btn.addEventListener('click', () => {
