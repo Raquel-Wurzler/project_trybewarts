@@ -142,3 +142,8 @@ footer {
 .contador {
   display: flex;
 }
+
+#form-data {
+  display: flex;
+  justify-content: center;
+}

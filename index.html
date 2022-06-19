@@ -22,15 +22,9 @@
     </form>
   </header>
 
-  <section id="form-data">
-    <div id="1"></div>
-    <div id="2"></div>
-    <div id="3"></div>
-    <div id="4"></div>
-    <div id="5"></div>
-    <div id="6"></div>
-    <div id="7"></div>
-  </section>
+    <form id="form-data">
+      <div id="dados"></div>
+    </form>
 
   <main class="flex-container-main">
     <form action="#" method="get" id="evaluation-form" class="flex-container-form">
@@ -56,23 +50,20 @@
 
       <section class="radios">
         <label for="" id="label-family">Qual sua família?</label>
-        <label for=""><input type="radio" name="family" value="Frontend" />Família
-          Frontend</label>
-        <label for=""><input type="radio" name="family" value="Backend" />Família
-          Backend</label>
-        <label for=""><input type="radio" name="family" value="FullStack" />Família
-          FullStack</label>
+        <label for="front"><input id="front" type="radio" name="family" value="Frontend" />Família Frontend</label>
+        <label for="back"><input id="back" type="radio" name="family" value="Backend" />Família Backend</label>
+        <label for="full"><input id="full" type="radio" name="family" value="FullStack" />Família FullStack</label>
       </section>
 
       <section id="div-checkbox-content">
         <label for="" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
         <div class="checked">
-          <label for=""><input type="checkbox" name="subject" value="HoFs" />HoFs</label>
-          <label for=""><input type="checkbox" name="subject" value="Jest" />Jest</label>
-          <label for=""><input type="checkbox" name="subject" value="Promises" />Promises</label>
-          <label for=""><input type="checkbox" name="subject" value="React" />React</label>
-          <label for=""><input type="checkbox" name="subject" value="SQL" />SQL</label>
-          <label for=""><input type="checkbox" name="subject" value="Python" />Python</label>
+          <label for="hofs"><input id="hofs" class="subject" type="checkbox" name="subject" value="HoFs" />HoFs</label>
+          <label for="jest"><input id="jest" class="subject" type="checkbox" name="subject" value="Jest" />Jest</label>
+          <label for="promises"><input id="promises" class="subject" type="checkbox" name="subject" value="Promises" />Promises</label>
+          <label for="react"><input id="react" class="subject" type="checkbox" name="subject" value="React" />React</label>
+          <label for="sql"><input id="sql" class="subject" type="checkbox" name="subject" value="SQL" />SQL</label>
+          <label for="python"><input id="python" class="subject" type="checkbox" name="subject" value="Python" />Python</label>
         </div>
       </section>
 
