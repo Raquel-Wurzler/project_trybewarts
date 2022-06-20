@@ -59,7 +59,7 @@ function printInfos() {
     Observações: ${comentario};`;
 }
 
-btn.addEventListener('click', () => {
+btn.addEventListener('click', (event) => {
   event.preventDefault();
   const infos = document.querySelector('main');
   infos.style.display = 'none';
