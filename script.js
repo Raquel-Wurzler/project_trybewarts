@@ -46,17 +46,16 @@ function printInfos() {
   const casa = document.getElementById('house').value;
   const familia = document.querySelector('input[name=\'family\']:checked').value;
   const conteudo = document.querySelectorAll('.subject:checked');
-  console.log(conteudo);
   const avaliacao = document.querySelector('input[name=\'rate\']:checked').value;
   const comentario = document.getElementById('textarea').value;
   const dados = document.getElementById('dados');
-  dados.innerHTML = `Nome: ${nome} ${sobrenome};
-    Email: ${email};
-    Casa: ${casa};
-    Família: ${familia};
-    Matérias: ${[...conteudo].map((conteudos) => conteudos.value).join(', ')};
-    Avaliação: ${avaliacao};
-    Observações: ${comentario};`;
+  dados.innerHTML = `NOME: ${nome} ${sobrenome};
+    EMAIL: ${email};
+    CASA: ${casa};
+    FAMÍLIA: ${familia};
+    MATÉRIAS: ${[...conteudo].map((conteudos) => conteudos.value).join(', ')};
+    AVALIAÇÃO: ${avaliacao};
+    OBSERVAÇÕES: ${comentario};`;
 }
 
 btn.addEventListener('click', (event) => {

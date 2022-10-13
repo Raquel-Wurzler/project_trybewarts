@@ -2,23 +2,23 @@ body {
   margin: 0;
 }
 
-button {
+#button-login {
   border-radius: 10px;
-  border: 1px solid blueviolet;
+  border: 1px solid rgb(205, 170, 170);
   padding: 10px 20px;
-  background-color: blueviolet;
+  background-color: rgb(46, 48, 118);
   color: white;
   justify-content: center;
 }
 
 .header {
   display: flex;
-  background-color: rgb(50, 167, 145);
+  background-color: rgb(14, 29, 36);
   margin: 0;
   justify-content: space-between;
   height: 100px;
   align-items: center;
-
+  font-family: 'Poppins', cursive;
 }
 
 .trybewarts-header-logo {
@@ -36,7 +36,6 @@ button {
   border: 50px;
   padding: 30px;
   justify-content: space-between;
-
 }
 
 .trybewarts-login input {
@@ -44,16 +43,6 @@ button {
   border: 1px solid black;
   padding: 10px;
   margin: 5px;
-}
-
-.trybewarts-login button {
-  border-radius: 10px;
-  border: 1px solid blueviolet;
-  padding: 10px 20px;
-  width: 150px;
-  margin: auto;
-  background-color: blueviolet;
-  color: white;
 }
 
 .flex-container-form {
@@ -78,6 +67,18 @@ button {
   flex-direction: column;
 }
 
+#label-family {
+  font-weight: bold;
+}
+
+#label-content{
+  font-weight: bold;
+}
+
+#label-rate{
+  font-weight: bold;
+}
+
 .alignment {
   display: flex;
   flex-direction: row;
@@ -90,6 +91,11 @@ button {
   margin: 5px;
 }
 
+#house {
+  margin: 5px;
+  width: 500px;
+}
+
 #div-checkbox-content {
   display: flex;
   flex-direction: column;
@@ -100,8 +106,25 @@ button {
   flex-wrap: wrap;
 }
 
+.conteudo {
+  margin-right: 10px;
+}
+
+.subject {
+  margin-right: 3px;
+}
+
+#label-infos {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
 .agreement-container {
   display: flex;
+}
+
+.textarea {
+  font-weight: bold;
 }
 
 textarea {
@@ -110,13 +133,18 @@ textarea {
   border: 1px solid black;
   box-sizing: border-box;
   width: 550px;
+  height: 100px;
+}
+
+#counter {
+  margin-left: 5px;
+  font-weight: bold;
 }
 
 .form-button {
   border-radius: 20px;
-  border: 1px solid blueviolet;
   padding: 10px 20px;
-  background-color: blueviolet;
+  background-color: rgb(46, 48, 118);
   color: white;
   justify-content: center;
   width: 550px;
@@ -146,4 +174,10 @@ footer {
 #form-data {
   display: flex;
   justify-content: center;
+}
+
+#dados {
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
