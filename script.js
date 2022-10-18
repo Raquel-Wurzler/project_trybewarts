@@ -49,13 +49,15 @@ function printInfos() {
   const avaliacao = document.querySelector('input[name=\'rate\']:checked').value;
   const comentario = document.getElementById('textarea').value;
   const dados = document.getElementById('dados');
-  dados.innerHTML = `NOME: ${nome} ${sobrenome};
-    EMAIL: ${email};
-    CASA: ${casa};
-    FAMÍLIA: ${familia};
-    MATÉRIAS: ${[...conteudo].map((conteudos) => conteudos.value).join(', ')};
-    AVALIAÇÃO: ${avaliacao};
-    OBSERVAÇÕES: ${comentario};`;
+  const materias = [...conteudo].map((conteudos) => conteudos.value).join(', ');
+  dados.innerHTML = `<h3>Resultado do Formulário:</h3>
+    <p><strong>Nome:</strong> ${nome} ${sobrenome}</p>
+    <p><strong>Email:</strong> ${email}</p>
+    <p><strong>Casa:</strong> ${casa}</p>
+    <p><strong>Família:</strong> ${familia}</p>
+    <p><strong>Matérias:</strong> ${materias}</p>
+    <p><strong>Avaliação:</strong> ${avaliacao}</p>
+    <p><strong>Observações:</strong> ${comentario}</p>`;
 }
 
 btn.addEventListener('click', (event) => {
