@@ -1,4 +1,4 @@
-// Requisito 3
+// Requisito 3 (formulário de login no header)
 const button = document.getElementById('button-login');
 const emailLogin = document.getElementById('email-login');
 const passwordLogin = document.getElementById('senha-login');
@@ -13,7 +13,7 @@ function login() {
 
 button.addEventListener('click', login);
 
-// Requisito 18
+// Requisito 18 (Habilite o botão "Enviar" após a validação do checkbox)
 
 const agreement = document.getElementById('agreement');
 const btn = document.getElementById('submit-btn');
@@ -23,12 +23,13 @@ function ativaDesativaBotao() {
     btn.disabled = true;
   } else {
     btn.disabled = false;
+    btn.style.backgroundColor = 'rgb(46, 48, 118)';
   }
 }
 
 agreement.addEventListener('change', ativaDesativaBotao);
 
-// Requisito 20
+// Requisito 20 (Crie um contador de caracteres)
 
 const textArea = document.querySelector('textarea');
 textArea.addEventListener('input', () => {
@@ -37,27 +38,27 @@ textArea.addEventListener('input', () => {
   counter.innerText = (textArea.maxLength - quantidadeDigitada);
 });
 
-// Requisito 21
+// Requisito 21 (Substitua o formulário pelas informações da pessoa estudante)
+const formResultado = document.getElementById('form-data');
 
 function printInfos() {
   const nome = document.getElementById('input-name').value;
   const sobrenome = document.getElementById('input-lastname').value;
-  const email = document.getElementById('input-email').value;
-  const casa = document.getElementById('house').value;
   const familia = document.querySelector('input[name=\'family\']:checked').value;
   const conteudo = document.querySelectorAll('.subject:checked');
   const avaliacao = document.querySelector('input[name=\'rate\']:checked').value;
-  const comentario = document.getElementById('textarea').value;
-  const dados = document.getElementById('dados');
+  const dados = document.createElement('div');
+  dados.id = 'dados';
   const materias = [...conteudo].map((conteudos) => conteudos.value).join(', ');
   dados.innerHTML = `<h3>Resultado do Formulário:</h3>
     <p><strong>Nome:</strong> ${nome} ${sobrenome}</p>
-    <p><strong>Email:</strong> ${email}</p>
-    <p><strong>Casa:</strong> ${casa}</p>
+    <p><strong>Email:</strong> ${document.getElementById('input-email').value}</p>
+    <p><strong>Casa:</strong> ${document.getElementById('house').value}</p>
     <p><strong>Família:</strong> ${familia}</p>
     <p><strong>Matérias:</strong> ${materias}</p>
     <p><strong>Avaliação:</strong> ${avaliacao}</p>
-    <p><strong>Observações:</strong> ${comentario}</p>`;
+    <p><strong>Observações:</strong> ${document.getElementById('textarea').value}</p>`;
+  formResultado.appendChild(dados);
 }
 
 btn.addEventListener('click', (event) => {
