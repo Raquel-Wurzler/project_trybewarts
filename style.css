@@ -3,7 +3,6 @@ body {
 }
 
 /* ================= Header ================= */
-
 .header {
   display: flex;
   flex-direction: row;
@@ -12,7 +11,7 @@ body {
   justify-content: space-between;
   height: 100px;
   align-items: center;
-  font-family: 'Poppins', cursive;
+  font-family: Poppins, cursive;
 }
 
 .trybewarts-header-logo {
@@ -49,7 +48,6 @@ body {
 }
 
 /* ================= Formulário ================= */
-
 .flex-container-main {
   display: flex;
   justify-content: space-around;
@@ -68,8 +66,7 @@ body {
 
 #house {
   margin: 5px;
-  width: 500px;
-  width: 200px;
+  width: 605px;
   height: 45px;
   border-radius: 10px;
   border: 1px solid black;
@@ -86,15 +83,15 @@ body {
 }
 
 #label-family {
-  font-weight: bold;
+  font-weight: 700;
 }
 
-#label-content{
-  font-weight: bold;
+#label-content {
+  font-weight: 700;
 }
 
-#label-rate{
-  font-weight: bold;
+#label-rate {
+  font-weight: 700;
 }
 
 .alignment {
@@ -134,7 +131,7 @@ body {
 
 #label-infos {
   margin-right: 5px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .agreement-container {
@@ -147,7 +144,7 @@ body {
 }
 
 .textarea-title {
-  font-weight: bold;
+  font-weight: 700;
 }
 
 textarea {
@@ -161,7 +158,7 @@ textarea {
 
 #counter {
   margin-left: 5px;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 .contador {
@@ -179,13 +176,11 @@ textarea {
 }
 
 /* ================= Logo ================= */
-
 #trybewarts-forms-logo {
   height: 500px;
 }
 
 /* ================= Resultado Formulário ================= */
-
 #form-data {
   display: flex;
   justify-content: center;
@@ -201,13 +196,11 @@ textarea {
   font-size: 20px;
   padding: 30px;
   border-radius: 10px;
-  padding: 30px;
   background-color: rgba(255, 255, 255, 0.5);
-  height: 500px;  
+  height: 500px;
 }
 
 /* ================= Footer ================= */
-
 footer {
   background-color: rgb(42, 42, 42);
   display: flex;
