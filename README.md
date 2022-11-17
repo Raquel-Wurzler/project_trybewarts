@@ -9,6 +9,13 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 ### Principal objetivo:
 * Usando HTML, JavaScript e CSS desenvolver uma página de formulário da Escola de Magia de Trybewarts, em que as pessoas estudantes poderão enviar seus feedbacks sobre ela. O tema desse projeto é baseado na obra 'Harry Potter', de J. K. Rowling.
 
+### O que foi entregue:
+<details>
+  <summary>🤓</summary>
+![erro na porta 3000](./public/erroDePorta.png)
+  <br />
+</details>
+
 ### Habilidades trabalhadas nesse projeto:
 * Construção de uma página de formulário usando HTML;
 * Usar todas as tags HTML disponíveis no formulário;
