@@ -12,7 +12,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 ### O que foi entregue:
 <details>
   <summary>🤓</summary>
-  <img height="550em" width="1000px" src="./images/ImagemTela.png"/>
+  <img height="450em" width="800px" src="./images/ImagemTela.png"/>
 
   <br />
 </details>
