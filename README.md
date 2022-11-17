@@ -12,7 +12,8 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 ### O que foi entregue:
 <details>
   <summary>🤓</summary>
-![erro na porta 3000](./public/erroDePorta.png)
+  <img height="550em" width="1000px" src="./images/ImagemTela.png"/>
+
   <br />
 </details>
 
