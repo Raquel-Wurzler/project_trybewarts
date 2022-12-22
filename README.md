@@ -45,3 +45,7 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira melhorar de vi
 * as imagens de logomarca da trybewarts;
 
 ##### Link Deploy: https://sage-scone-2d1e29.netlify.app/
+
+## Stack utilizada
+
+**Front-end:** JavaScript, CSS, HTML
